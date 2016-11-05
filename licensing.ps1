@@ -164,8 +164,7 @@ ac $logfile1 "E3 Licences used: $($e3licenses.ConsumedUnits) / $($e3licenses.Act
     }
 }
 
-# Remove Licenses for Old Accounts
-# Get OU Containers Old Accounts
+# Remove Licenses for OU
 "OU=TheOUYouWant, DC=DOMAIN, DC=NET","OU=AnotherOUYouWant, DC=DOMAIN, DC=NET" | ForEach {
     Get-ADUser -Filter * -SearchBase $_ |
 
