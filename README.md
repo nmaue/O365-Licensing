@@ -8,6 +8,8 @@ It only assigns licenses to enabled users.
   
 Licenses can also be removed from an entire OU if defined
 
+Obviously don't actually have the password in the script, but have it read in from an encrypted file
+
 ## Todo
 * Change the piping to actual variable statements
 * Clean it up using powershell classes
