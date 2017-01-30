@@ -7,3 +7,7 @@ The script gets Origanizational Units from the AD forest and assigns them the co
 It only assigns licenses to enabled users.  
   
 Licenses can also be removed from an entire OU if defined
+
+## Todo
+* Change the piping to actual variable statements
+* Clean it up using powershell classes
